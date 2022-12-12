@@ -5,7 +5,7 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 import scipy.cluster.hierarchy as sch
-from data_transform import Contacts
+from data_transformer import Contacts
 
 
 class Indicators:

@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.decomposition import PCA
 
-from data_transform import Contacts
+from data_transformer import Contacts
 from d2pca import D2PCA
 from hierarchical import Hierarchical
 from Indicators import Indicators
@@ -90,8 +90,8 @@ def country_contacts(data_tr):
 
 
 def main():
-    do_clustering_pca = False
-    do_clustering_dpca = False
+    do_clustering_pca = True
+    do_clustering_dpca = True
 
     # Create data for clustering
     susc = 1.0
