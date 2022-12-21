@@ -58,7 +58,7 @@ class Hierarchical:
                    rotation=0, fontsize=39)
         plt.title("Measure of closeness  between countries before reordering",
                   fontsize=42, fontweight="bold")
-        az = plt.imshow(distance, cmap="Spectral",
+        az = plt.imshow(distance, cmap="jet",
                         interpolation="nearest",
                         vmin=0)
         cbar = plt.colorbar(az)
